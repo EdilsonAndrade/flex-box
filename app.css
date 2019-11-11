@@ -1,0 +1,39 @@
+*{
+  /* zero as configuraçções padrões do navegador e etc */
+  margin:0;
+  padding:0;
+  box-sizing: border-box;  /* faz com que o padding não aumente o tamanho do meu controller */
+ 
+}
+html, body, #app{
+  height: 100%;
+  margin: 0;
+}
+#app{
+  display: flex;
+  
+flex-wrap: wrap;
+}
+
+.box{
+  background-color: red;
+
+  width:700px;
+  height: 200px;
+  margin:5px;
+
+}
+
+.red{
+  order:0;
+}
+
+.green{
+background: green;
+order: 3;
+}
+
+.blue{
+  background: blue;
+  order: 2
+}
